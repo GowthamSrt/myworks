@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Andis';
+    src: url('AndisRegular/AndisRegularFont.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h1 {
+        font-family: 'Andis', sans-serif;
+        font-size: 50px;
+        text-underline-offset: 18px;
+    }
+
+    h2 {
+        font-family: 'Andis', sans-serif;
+        font-size: 30px;
+        text-decoration: underline;
+        text-underline-offset: 18px;
+    }
+}
+
+p {
+    font-size: 15px;
+}
+
+.outer {
+    display: flex;
+    width: 60vw;
+    margin: 100px auto;
+}
+
+span {
+    font-size: 18px;
+}
+.college {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.profile {
+    background-color: #253847;
+    color: #eef4f9;
+    width: 100vw;
+    border: 1px solid;
+}
+
+img {
+    border: 3px solid #eef4f9;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 70px auto ;
+    display: flex;
+}
+
+.contact {
+    margin: 35px;
+    i {
+        font-size: 25px;
+        color: aliceblue;
+    }
+
+    span {
+        font-size: 15px;font-weight: 200;
+    }
+}
+
+.left {
+    margin-bottom: 100px;
+    span {
+        font-weight: bold;
+    }
+}
+
+.contactdetails span{
+    font-weight: 400;
+}
+.name-container {
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 0px auto 10px 20px;
+    padding: 38px;
+    text-align: center;
+    hr {
+        width: 40%;
+        
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+#emptyline {
+    border: 1px solid;
+    width: 200px;
+    justify-self: center;
+}
+
+.details {
+    margin: 65px 40px;
+    width: 100%;
+    
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    i {
+        font-size: 15px;
+        color: #a7a7a7;
+    }
+}
+
+#aaa {
+    color: #a7a7a7;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40%;
+}
+
+
+
